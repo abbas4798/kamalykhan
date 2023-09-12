@@ -13,6 +13,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 
     <link rel="stylesheet" href="style.css" />
+    <style>
+        .social-link {
+            margin-right: 10px;
+            text-decoration: none;
+            color: lightgray;
+        }
+
+        .social-link:hover .fa-behance {
+            color: #0073e6;
+            animation: bounce 0.5s;
+        }
+
+        .social-link:hover .fa-aa {
+            color: red;
+            animation: bounce 0.5s;
+        }
+
+
+
+        /* Define the bounce animation */
+        @keyframes bounce {
+
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateY(0);
+            }
+
+            40% {
+                transform: translateY(-10px);
+            }
+
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -254,39 +293,43 @@
                 <h2>Contact</h2>
                 <span>+923369703915</span>
                 <span>khayal.o.kamal@gmail.com</span>
-                <span style="display: flex; align-items: center; justify-content: space-around;">
-                    <a href="https://pk.linkedin.com/in/kamaly-khan-3b2238168" target="_blank" class="social-link">
-                        <i class="fa-brands fa-linkedin fa-beat-fade" style="color: #1278af;"></i>
+                <span style="display: flex; align-items: center; justify-content: space-between;">
+                    <a href="https://pk.linkedin.com/in/kamaly-khan-3b2238168" target="_blank" class="social-link"
+                        title="linkedin">
+                        <i class="fa-brands fa-behance fa-linkedin fa-beat-fade fa-lg" style="color: #d3d3d3;"></i>
+                    </a>
+
+                    <!-- Pinterest -->
+                    <a href=" https://www.pinterest.com/kamalykhan/" target="_blank" class="social-link"
+                        title="pinterest">
+                        <i class="fa-brands fa-pinterest fa-aa fa-beat-fade fa-lg" style="color: #d3d3d3;"></i>
+                    </a>
+
+                    <!-- Behance -->
+                    <a href="https://www.behance.net/kamalykhan" target="_blank" class="social-link" title="behance">
+                        <i class="fab fa-behance fa-lg"></i>
+                    </a>
+
+                    <a href="https://en.wikipedia.org/wiki/File:Kamaly.jpg" target="_blank" class="social-link"
+                        title="wikipedia">
+                        <i class="fa-brands fa-behance fa-wikipedia-w fa-flip fa-lg" style="color: #d3d3d3;"></i>
+                    </a>
+
+                    <!-- CGSociety -->
+                    <a href="https://kamaly-khan.cgsociety.org/" target="_blank" class="social-link" title="cgsociety">
+                        <i class="fa-solid fa-behance fa-brush fa-spin fa-lg" style="color: #d3d3d3;"></i>
+
+                    </a>
+
+                    <!-- Vimeo -->
+                    <a href="https://vimeo.com/user120432965" target="_blank" class="social-link" title="vimeo">
+                        <i class="fa-brands fa-behance fa-vimeo-v fa-fade fa-lg" style="color: #d3d3d3"></i>
                     </a>
 
                     <!-- YouTube -->
                     <a href="https://www.youtube.com/channel/UCBCiY-8rPwym-SiyA_S6KPA" target="_blank" title="youtube"
                         class="social-link">
-                        <i class="fa-brands fa-youtube fa-beat-fade fa-lg" style="color: #e82121;"></i>
-                    </a>
-
-                    <!-- Behance -->
-                    <a href="https://www.behance.net/kamalykhan" target="_blank" class="social-link">
-                        <i class="fa-brands fa-behance fa-bounce" style="color: blue;"></i>
-                    </a>
-                    <a href="https://en.wikipedia.org/wiki/File:Kamaly.jpg" target="_blank" class="social-link">
-                        <i class="fa-brands fa-wikipedia-w fa-flip" style="color: #929db0;"></i>
-                    </a>
-
-                    <!-- CGSociety -->
-                    <a href="https://kamaly-khan.cgsociety.org/" target="_blank" class="social-link">
-                        <i class="fa-solid fa-brush fa-spin-pulse" style="color: #566d95;"></i>
-
-                    </a>
-
-                    <!-- Vimeo -->
-                    <a href="https://vimeo.com/user120432965" target="_blank" class="social-link">
-                        <i class="fa-brands fa-vimeo-v fa-fade"></i>
-                    </a>
-
-                    <!-- Pinterest -->
-                    <a href="https://www.pinterest.com/kamalykhan/" target="_blank" class="social-link">
-                        <i class="fa-brands fa-pinterest fa-beat-fade" style="color: #f50f0f;"></i>
+                        <i class="fa-brands fa-behance fa-youtube fa-beat-fade fa-lg" style="color: #d3d3d3;"></i>
                     </a>
                 </span>
             </section>
